@@ -71,13 +71,13 @@ const NavigationTabs: React.FC<{ collapsed: boolean }> = ({ collapsed }) => {
           <BookOutlined />
           {!collapsed && <span>Guides</span>}
         </div> */}
-        <div
+        {/* <div
           className={returnTabsUIClassName(ActiveRouteKey.INTEGRATIONS)}
           onClick={() => handleNavigation(`/${ActiveRouteKey.INTEGRATIONS}`)}
         >
           <AppstoreAddOutlined />
           {!collapsed && <span>Integrations</span>}
-        </div>
+        </div> */}
       </div>
     </div>
   );

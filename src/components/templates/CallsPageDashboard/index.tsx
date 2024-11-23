@@ -107,7 +107,7 @@ const CallsPageDashboard = () => {
   };
 
   const handleCallNow = async (call: Call, language: string) => {
-    const assignedAgent = selectVoiceAgent(call.riskPercentage);
+    const assignedAgent = selectVoiceAgent(call.loanAmount);
     try {
       await apiService.callViaVoiceAgent({
         phoneNumber: call.callerNumber,
@@ -166,11 +166,11 @@ const CallsPageDashboard = () => {
     setNewContact({ name: "", phone: "", loan: 0, risk: 0 });
   };
 
-  const selectVoiceAgent = (riskPercentage: number): string => {
-    if (riskPercentage < 25) return voiceAgents[0].name;
-    if (riskPercentage < 50) return voiceAgents[1].name;
-    if (riskPercentage < 75) return voiceAgents[2].name;
-    return voiceAgents[3].name;
+  const selectVoiceAgent = (loanAmount: number): string => {
+    if (loanAmount > 4000) return voiceAgents[3].name;
+    else if (loanAmount < 4000 && loanAmount > 1000) return voiceAgents[0].name;
+    if (loanAmount < 1000) return voiceAgents[3].name;
+    return voiceAgents[0].name;
   };
 
   const columns = [

@@ -30,16 +30,16 @@ const LeftSider = () => {
   // Assuming that the email is of the structure "name@company_name.extension", extract the "company_name" from the email
   const companyName =
     toTitleCase(email?.split("@")[1]?.split(".")[0]?.toUpperCase()) === "Gmail"
-      ? "Recontact"
+      ? "Minions"
       : toTitleCase(email?.split("@")[1]?.split(".")[0]?.toUpperCase());
   return (
     <Sider
       theme="dark"
       width={250}
       className="sider"
-      // collapsible
-      // collapsed={collapsed}
-      // onCollapse={onCollapse}
+    // collapsible
+    // collapsed={collapsed}
+    // onCollapse={onCollapse}
     >
       <div
         style={{
@@ -58,7 +58,7 @@ const LeftSider = () => {
             className={"heading"}
             onClick={() => navigate(`/`)}
           >
-            {!collapsed && <p>&nbsp; &nbsp; {companyName}</p>}
+            {!collapsed && <p>&nbsp; &nbsp; Minions</p>}
           </div>
         </div>
         <div className="tabsContainer">
