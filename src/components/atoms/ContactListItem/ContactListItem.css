@@ -1,0 +1,29 @@
+.contactItemContainerWrapper {
+    /* display: grid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #ccc;
+    border-radius: 0.8rem;
+    color: #000;
+    margin: 0.5rem;
+}
+
+.contactItemContainer {
+    grid-template-columns: 1fr 1fr;
+    background: #ccc;
+}
+
+.interests-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+}
+
+.contact-title {
+    margin: 0;
+    padding: 0;
+}

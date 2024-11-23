@@ -1,0 +1,41 @@
+.drawer-parent-div{
+    position: fixed;
+    z-index: 5;
+    bottom: 0px;
+    right: 10px;
+    height: 800px;
+    width: 420px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+.drawer-main{
+    background-color: #fefefe;
+    border: 2px solid #dddddd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px;
+}
+
+.drawer-header{
+    display:flex;
+    height:50px;
+    align-items: center;
+    padding-bottom:10px;
+    border-bottom: 1px solid grey;
+    overflow-y:hidden;
+}
+
+.drawer-header-text{
+    font-size:1.2rem;
+    font-weight:700;
+    padding-left:20px;
+    width:80%;
+}
+
+.drawer-header-close{
+    text-align:center;
+    color:rgb(0, 101, 233);
+    width:20%;
+}

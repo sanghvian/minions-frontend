@@ -1,0 +1,65 @@
+.app-container {
+  background: #000;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 1rem 0;
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: flex-start;
+  color: #fff;
+  position: relative;
+}
+
+.app-container-web {
+  background: #EEFDFF;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: flex-start;
+  color: #13345D;
+  position: relative;
+}
+
+.spotlight-search-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  padding: 10px;
+  z-index: 1000;
+}
+
+
+.action-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+audio {
+  display: none !important;
+}
+
+/* UI Styles to show any ant-design Alert as a top banner */
+.ant-alert {
+  position: absolute !important;
+  top: -5vh !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  left: 3vw !important;
+  margin: 0.6rem !important;
+  width: 87% !important;
+  z-index: 3 !important;
+}

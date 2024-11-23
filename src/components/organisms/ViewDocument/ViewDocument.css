@@ -1,0 +1,24 @@
+.one-document-card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.document-date {
+    margin: 10px;
+}
+
+.summary-component-card {
+    text-align: left;
+}
+
+.note-item-heading {
+    cursor: pointer;
+    color: #007bff;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.note-item.active {
+    background-color: #EEFDFF;
+    border: 2px solid #A0E8F1;
+}

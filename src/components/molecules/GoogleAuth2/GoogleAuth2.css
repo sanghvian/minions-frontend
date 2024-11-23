@@ -1,0 +1,25 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-container div,
+.login-container span {
+    display: flex;
+    margin: 0 !important;
+    padding: 0 !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container button {
+    padding: 0.5rem 1rem !important;
+}
+
+.login-container img,
+.login-container svg {
+    padding-right: 1rem !important;
+}

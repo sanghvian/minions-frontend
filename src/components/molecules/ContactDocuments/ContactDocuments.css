@@ -1,0 +1,33 @@
+.all-documents-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+/* .document-card{
+    cursor: pointer;
+}
+
+.document-card:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    transition: box-shadow 0.1s ease-in-out;
+    background-color: rgb(251, 251, 251);
+} */
+
+.document-date{
+    font-size: 0.9rem;
+    color: #6c757d;
+    text-align: right !important;
+}
+
+.document-notes-div{
+    text-align: left;
+}
+
+.note-item{
+    padding:0.5rem 0rem;
+}
+
+.note-item-heading{
+    font-weight: 500;
+}

@@ -1,0 +1,27 @@
+.addContactReviewCategoriesContainer {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    position: fixed;
+    overflow-x: auto;
+    /* changed to auto for better appearance when not overflowing */
+    overflow-y: hidden;
+    white-space: nowrap;
+    bottom: 150px;
+    height: 40px;
+    left: 30px;
+    padding: 5px;
+    /* Optional padding for better appearance */
+}
+
+.addContactReviewCategoriesSpace {
+    /* margin-right: 50px; */
+    display: inline-flex;
+    /* This will allow horizontal layout */
+    flex-wrap: nowrap;
+    /* Prevents wrapping */
+    height: 100%;
+    /* Match the height of the container */
+    align-items: center;
+    /* Align tags vertically */
+}

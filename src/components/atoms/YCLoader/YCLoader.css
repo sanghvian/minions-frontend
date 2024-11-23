@@ -1,0 +1,23 @@
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner {
+    width: 40px;
+    /* Adjust based on your requirement */
+    height: 40px;
+    /* Adjust based on your requirement */
+    border-radius: 50%;
+    /* Make it circular */
+    animation: spin 2s linear infinite;
+    /* Continuous rotation */
+    background-image: url('https://s3.amazonaws.com/recontact.world/yc-loader-image.png');
+    /* Put your image URL here */
+    background-size: cover;
+}

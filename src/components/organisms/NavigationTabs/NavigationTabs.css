@@ -1,0 +1,38 @@
+.tabUI {
+    background-color: #13345D;
+    color: #A0E8F1;
+    font-size: 1.1rem;
+    margin: 0.6rem;
+    padding: 0.8rem 1.3rem;
+    /* margin-bottom: 1rem; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    z-index: 3;
+    border-radius: 0.5rem;
+}
+
+.tabUI.active {
+    background-color: #0D1E33;
+    color: #A0E8F1;
+}
+
+.tabUI:hover {
+    background-color: #0D1E33;
+    color: #A0E8F1;
+    cursor: pointer;
+}
+
+.tabUI.active::after {
+    /* Have a basic :after element in case of active tab where there's a slim rectangle on the rightmost end of this tab rectangle of the color A0E8F1 */
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 0.3rem;
+    background-color: #A0E8F1;
+}

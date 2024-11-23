@@ -1,0 +1,29 @@
+.bottomActionContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.bottomActionsWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    background: #fff;
+    z-index: 1;
+}
+
+.bottomBar {
+    position: fixed;
+    padding-right: 2rem;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}

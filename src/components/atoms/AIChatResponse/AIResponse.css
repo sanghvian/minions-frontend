@@ -1,0 +1,77 @@
+.messageBubble.fromBot {
+    background: transparent;
+    color: #000;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    text-align: left;
+    align-self: flex-start;
+}
+
+/* 
+.messageBubble.fromBot:after {
+    left: -26px;
+    width: 26px;
+    background-color: #000;
+    border-bottom-right-radius: 10px;
+}
+
+
+.messageBubble.fromBot:before {
+    left: -7px;
+    width: 20px;
+    background-color: transparent;
+    border-bottom-right-radius: 16px;
+} */
+
+
+.recommendedContactsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: scroll;
+    width: 100%;
+    gap: 0.3rem;
+    position: relative;
+    margin: 0.6rem 0;
+}
+
+.recommendedContactsContainer .gradient {
+    /* Absolute position to the right, from top to bottom, and provides a gradient from transparent to blur from width to extreme right */
+    position: sticky;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100px;
+    background: linear-gradient(to right, transparent, #424242);
+}
+
+.recommendedContactsContainer .contactChip {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    color: #fff;
+}
+
+.contactChip {
+    position: relative;
+    background: #424242;
+    color: #fff;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    /* Solid border of width 1px and color of the form "circular rainbow gradient" */
+    border: 2px solid rgb(45, 123, 233);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.contactChip:hover {
+    transform: scale(1.03);
+}
+
+.chipImage {
+    color: #fff;
+    margin-right: 0.3rem;
+}

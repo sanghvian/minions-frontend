@@ -1,0 +1,28 @@
+.topicDashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: transform 0.2s;
+    text-align: right;
+    padding: 1.4rem;
+    border-radius: 0.7rem;
+}
+
+.topicDashboard h3 {
+    color: blue
+}
+
+.topicDashboard:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.topicBoardPageDashboardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,13 @@
+.playbooks-list {
+    width: 100%;
+}
+
+.playbooks-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 70vh;
+    width: 100%;
+    margin-bottom: 20vh;
+}

@@ -1,0 +1,28 @@
+.source-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.list-item-title-block{
+    justify-content: "stretch";
+    width: 100%;
+    display:grid;
+    grid-template-columns: 8fr 1fr;
+    gap: 1rem;
+    padding: 5px;
+}
+
+.title-span{
+    cursor: pointer;
+}
+
+.title-span:hover{
+    background-color: #f5f5f5;
+}
+
+.title-block-buttons{
+    display: flex;
+    justify-content: space-between;
+}

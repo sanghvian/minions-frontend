@@ -1,0 +1,56 @@
+.sider .heading {
+    text-align: left;
+    margin: 1.3rem 0 2rem 0;
+    color: #fff;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 0.5rem;
+}
+
+
+.ant-layout-sider-children {
+    background: #13345D !important;
+}
+
+.sider {
+    overflow: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    z-index: 1;
+    background: #13345D !important;
+    overflow-y: auto;
+    /* Make sider content scrollable */
+}
+
+.poweredByRecontactContainer {
+    position: fixed;
+    margin: 0;
+    bottom: 1px;
+    left: 10px;
+    justify-content: center;
+    align-items: flex-end;
+    height: 50px;
+    padding: 0;
+    width: 180px;
+}
+
+.poweredByRecontactContainer div {
+    background: #13345D;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    width: 180px;
+    color: #A0E8F1;
+}
+
+.tabsContainer {
+    overflow-x: hidden;
+    /* Or adjust as needed */
+}

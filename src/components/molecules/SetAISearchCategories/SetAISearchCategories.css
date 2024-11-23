@@ -1,0 +1,26 @@
+.searchCategoriesContainer {
+    display: flex;
+    align-items: center;
+    background: #e5fdff;
+    overflow-x: auto;
+    /* changed to auto for better appearance when not overflowing */
+    overflow-y: hidden;
+    border: 2px solid #a0e8f1;
+    white-space: nowrap;
+    bottom: 120px;
+    height: 40px;
+    padding: 5px;
+    /* Optional padding for better appearance */
+}
+
+.searchCategoriesSpace {
+    margin-right: 50px;
+    display: inline-flex;
+    /* This will allow horizontal layout */
+    flex-wrap: nowrap;
+    /* Prevents wrapping */
+    height: 100%;
+    /* Match the height of the container */
+    align-items: center;
+    /* Align tags vertically */
+}

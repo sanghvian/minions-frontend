@@ -1,0 +1,8 @@
+.searchThumbsUpAndDown {
+    display: flex;
+    margin: 1rem 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}

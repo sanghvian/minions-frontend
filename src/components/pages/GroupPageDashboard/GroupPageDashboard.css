@@ -1,0 +1,9 @@
+.groupPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 70vh;
+    width: 92%;
+    padding: 0 2rem;
+    margin-bottom: 20vh;
+}

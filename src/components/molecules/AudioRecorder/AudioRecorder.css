@@ -1,0 +1,6 @@
+.recordingAlertContainer {
+    color: #000 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

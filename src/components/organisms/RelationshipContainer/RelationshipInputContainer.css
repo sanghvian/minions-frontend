@@ -1,0 +1,11 @@
+.relationshipInputContainer {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: stretch;
+    width: 100%;
+}
+
+.ant-form-item {
+    margin-bottom: 0 !important;
+}

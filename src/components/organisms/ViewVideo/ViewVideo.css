@@ -1,0 +1,74 @@
+.video-transcript-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* margin-top: 20px;
+    padding: 20px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.transcript-div {
+    max-height: 360px;
+    overflow-y: auto;
+}
+
+.video-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.buttons-div {
+    display: grid;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    place-content: center;
+}
+
+.video-player {
+    width: 80%;
+    height: 300px;
+}
+
+.video-button {
+    margin: auto;
+    display: block;
+    width: fit-content;
+    padding: 0rem 1rem;
+    text-align: center;
+}
+
+.transcript-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.speaker-name {
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.transcript-text-div {
+    text-align: left;
+}
+
+.highlighted-text-element {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.text-element {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.text-element-timestamp {
+    font-size: 10px;
+    text-align: right;
+}

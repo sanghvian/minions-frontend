@@ -1,0 +1,19 @@
+.document-cards-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 0rem 1rem;
+}
+.documents-dashboard-container{
+    padding: 2rem 2 rem;
+    margin: 3%;
+}
+.document-card{
+    cursor: pointer;
+}
+
+.document-card:hover{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    transition: box-shadow 0.1s ease-in-out;
+    background-color: rgb(251, 251, 251);
+}

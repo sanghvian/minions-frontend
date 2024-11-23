@@ -1,0 +1,10 @@
+.sider {
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center';
+    padding: 0 1rem;
+
+    .ant-tabs-tab-btn {
+        color: #fff !important;
+    }
+}

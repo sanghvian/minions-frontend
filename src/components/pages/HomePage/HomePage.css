@@ -1,0 +1,10 @@
+.addPage {
+    width: 93%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+a:hover {
+    color: blue !important;
+    transition: 0.5s ease-in;
+}

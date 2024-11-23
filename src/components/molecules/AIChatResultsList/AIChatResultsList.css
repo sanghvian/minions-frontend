@@ -1,0 +1,16 @@
+.thumbsUpAndDown {
+    display: flex;
+    margin: 1rem 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.itemCardContainer {
+    transition: transform 0.2s;
+}
+
+.itemCardContainer:hover {
+    transform: scale(1.02);
+}

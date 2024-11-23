@@ -1,0 +1,11 @@
+.contacts-list {
+    width: 100%;
+}
+
+.contactAlphabet {
+    position: sticky;
+    top: 0;
+    padding: 0 1rem;
+    z-index: 2;
+    color: #000;
+}

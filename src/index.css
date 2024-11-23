@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+@font-face {
+  font-family: 'SF Pro Regular';
+  src: url('../public/fonts/sf-pro-regular.OTF') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Bold';
+  src: url('../public/fonts/sf-pro-bold.OTF') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'SF Pro Semibold';
+  src: url('../public/fonts/sf-pro-semibold.OTF') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Medium';
+  src: url('../public/fonts/sf-pro-medium.OTF') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+* {
+  margin: 0;
+  /* font-family: 'SF Pro Medium'; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'SF Pro Bold' !important;
+} */
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+}

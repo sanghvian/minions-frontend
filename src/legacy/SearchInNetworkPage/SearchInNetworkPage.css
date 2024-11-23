@@ -1,0 +1,80 @@
+.searchInNetContainer {
+    padding: 2rem 0.8rem;
+    max-width: 600px;
+    width: 100%;
+    background: black;
+    margin: 1rem 0;
+}
+
+@media (max-width: 600px) {
+    .searchInNetContainer {
+        padding: 1rem;
+        max-width: 80vw;
+    }
+}
+
+
+.messagesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+/* All the odd children of messageContainer must be aligned to right and even children should be aligned to the left */
+.messagesContainer .fromMe {
+    align-self: flex-end !important;
+}
+
+.messagesContainer .fromBot {
+    align-self: flex-start;
+}
+
+.messageBubble.fromMe {
+    color: white;
+    background: #0B93F6;
+    align-self: flex-end;
+
+}
+
+
+p.messageBubble {
+    max-width: 255px;
+    word-wrap: break-word;
+    margin-bottom: 12px;
+    line-height: 24px;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 25px;
+
+}
+
+p.messageBubble:before,
+p.messageBubble:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 25px;
+}
+
+
+.fromMe:before {
+    right: -7px;
+    width: 20px;
+    background-color: #0B93F6;
+    border-bottom-left-radius: 16px 14px;
+}
+
+.fromMe:after {
+    right: -26px;
+    width: 26px;
+    background-color: #000;
+    border-bottom-left-radius: 10px;
+}
+
+.ant-ribbon-wrapper {
+    background: #eee !important;
+    width: 100% !important;
+}

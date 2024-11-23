@@ -1,0 +1,60 @@
+.dashboardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.playbooks-list {
+    width: 100%;
+}
+
+.playbooks-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 70vh;
+    width: 100%;
+    margin-bottom: 20vh;
+}
+
+.playbookItemContainerWrapper {
+    /* display: grid; */
+    display: flex;
+    width: 92%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #ddd;
+    border-radius: 0.8rem;
+    color: #000;
+    margin: 0.5rem;
+}
+
+.playbookItemContainerWrapper.active {
+    border: 1px solid cyan;
+}
+
+.playbookItemContainer {
+    grid-template-columns: 1fr 1fr;
+    background: hsl(0, 0%, 34%);
+}
+
+.playbook-title {
+    margin: 0;
+    padding: 0;
+}
+
+.activeRow {
+    background-color: #e6f7ff;
+    /* Light blue background */
+    /* Add more styling as needed */
+}
+
+.tableRow{
+    cursor: pointer;
+}

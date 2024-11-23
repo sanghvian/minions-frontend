@@ -1,0 +1,27 @@
+.pbItemContainerWrapper {
+    /* display: grid; */
+    display: flex;
+    width: 92%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #ddd;
+    border-radius: 0.8rem;
+    color: #000;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.pbItemContainerWrapper.active {
+    border: 1px solid cyan;
+}
+
+.pbItemContainer {
+    grid-template-columns: 1fr 1fr;
+    background: inherit;
+}
+
+.pb-title {
+    margin: 0;
+    padding: 0;
+}
